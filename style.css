@@ -1,0 +1,430 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    margin: 0px 130px;
+}
+.header-1 {
+    padding: 0.5rem;
+}
+.header-container {
+    background-color: rgb(166, 228, 228);
+        --tw-backdrop-blur: blur(40px);
+    position: fixed;
+    gap: 13rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container p {
+    font-size: 12px;
+    margin-left: 1.1rem;
+}
+.header-container1 {
+    margin-top: 5rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: small;
+}
+
+ i.fa {
+    font-size: 0.8rem;
+    margin-right: 0.4rem;
+}
+.btn-1 {
+    margin-right: 5.4rem;
+}
+.btn-1 button {
+    background-color: white;
+    border: 0px;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: x-small;
+}
+button.btn-2:hover {
+    background-color: rgb(127, 136, 136);
+}
+ button.btn-3 {
+    background-color: black;
+    color: white;
+}
+.header-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+}
+
+
+.Portfolio{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.Portfolio input {
+    border: 1.3px solid gray;
+    border-radius: 4px;
+    padding: 8px;
+}
+.Portfolio button {
+    border-radius: 6px;
+    border: 1.3px solid;
+    background-color: black;
+    padding: 11px;
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 0.7rem;
+}
+.Portfolio p, a {
+    color: gray;
+}
+#in-p {
+    font-size: 11px;
+    color: black;
+}
+.pa-element {
+    font-size: 9px;
+}
+
+
+
+
+
+
+.section-1 {
+    text-align: center;
+     margin-top: 7rem;
+}
+
+
+.section-2 {
+     text-align: center;
+     margin-top: 7rem;
+}
+.section-2 p {
+    color: gray;
+    font-size: 0.7rem;
+    width: 88%;
+    margin-left: 1rem;
+}
+.para-sidechnge2 p {
+    color: gray;
+    font-size: 0.8rem;
+    width: 58%;
+    margin-left: 12.8rem;
+}
+.Skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    text-align: center;
+    width: 93%;
+    margin-top: 7rem;
+}
+.Skills-container i {
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+
+.section-3 {
+    text-align: center;
+    margin-top: 8rem;
+}
+.section-3 p {
+    color: gray;
+    font-size: 0.7rem;
+}
+.para-sidechnge3 p {
+    width: 42%;
+    font-size: 0.8rem;
+    margin-left: 16.8rem;
+}
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    row-gap: 5rem;
+     margin-top: 7rem;
+}
+.project-container p {
+    margin-left: 15px;
+    width: 194px;
+    text-align: left;
+}
+.project-container img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+.project-container h5 {
+    margin-right: 2rem;
+}
+.project-container button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-size: 0.6rem;
+    margin-right: 7.9rem;
+}
+
+
+
+.section-4 {
+    margin-bottom: 10rem;
+}
+.Resume-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    margin-top: 9rem;
+    margin-left: 1.4rem;
+}
+
+.Resume-container p {
+    color: gray;
+    font-size: 0.7rem;
+}
+.I i {
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.Resume-container a {
+    color: black;
+    font-size: 9px;
+}
+.anchor i {
+    border-radius: none;
+    margin-left: 0.4rem;
+    font-size: 0.9rem;
+}
+    
+
+
+
+.section-5 {
+    text-align: center;
+}
+.para-sidechnge p {
+    color: gray;
+    width: 54%;
+    margin-left: 15.4rem;
+    font-size: 0.9rem;
+}
+.client-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    margin-top: 5rem;
+    padding: 3rem;
+    margin-left: 3rem;
+}
+.client-container  P {
+    color: gray;
+    font-size: 0.7rem;
+    width: 55%;
+}
+.client-container img {
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+.section-6 {
+    text-align: center;
+}
+.section-6 h6 {
+    color: gray;
+}
+.section-6 h2 {
+    width: 36%;
+    color: rgb(51, 50, 50);
+    margin-left: 19.2rem;
+}
+.client-logo img {
+  filter: grayscale(100%);
+}
+
+
+.section-7 {
+    margin-top: 7rem;
+}
+.first {
+    text-align: center;
+}
+.para-sidechnge4 h1 {
+        color: rgb(51, 50, 50);
+}
+.para-sidechnge4 p {
+    color: gray;
+    font-size: 0.8rem;
+    width: 37%;
+    margin-left: 18.5rem;
+
+}
+
+
+.input-form1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7rem;
+    background-color: #fff;
+    border: 1rem solid beige;
+    border-radius: 1.5rem;
+    padding: 25px;
+    margin-bottom: 10rem;
+}
+.contact-info {
+    /* background-color: black; */
+    background-color: rgb(33 33 33 / var(--tw-bg-opacity, 1));
+    /* border: 1px solid black; */
+    border-radius: 0.6rem;
+    color: rgb(24, 23, 23);
+    width: 80%;
+    height: 290px;
+    margin-left: 0.7rem;
+}
+.contact-info1 {
+    padding: 2rem 2rem 2rem 2rem;
+}
+.contact-info1 h4 {
+    color: #fff;
+    margin: 0;
+}
+.contact-info1 p {
+    font-size: 0.7rem;
+    color: gray;
+}
+.contact-info1 h6 {
+    color: #fff;
+}
+.contact-info1 i {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.input-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.input-form input {
+    border: 0px;
+    border-bottom: 2.3px solid gray;
+    outline-width: 0;
+    width:98%;
+    font-size: 0.8rem;
+    padding: 4px 0px 6px 0px;
+  
+}
+.input-form label {
+    color: gray;
+    font-size: 0.8rem;
+}
+.input-form label:hover {
+    color: black;
+    transition-duration: 0.4s;
+}
+.input-form input:hover {
+    border-bottom: 2.3px solid black;
+    transition-duration: 0.4s;
+    color: #fff;
+}
+.input-form2 input {
+    width: 207%;
+}
+
+.input-form3 {
+    color: gray;
+}
+.input-form3 p {
+    color: rgb(105, 104, 104);
+    font-size: 0.6rem;
+}
+.input-form3 label {
+    color: gray;
+    font-size: 0.7rem;
+}
+.input-form4 label {
+    color: gray;
+    font-size: 0.7rem;
+}
+.input-form4 textarea {
+    border: 0px;
+    border-bottom: 2.3px solid gray;
+    outline-width: 0;
+    width:98%;
+    font-size: 0.8rem;
+    padding: 4px 0px 6px 0px;
+}
+.input-form4 textarea:hover {
+    border-bottom: 2.3px solid black;
+    transition-duration: 0.4s;
+    color: #fff;
+}  
+.input-form4 label:hover {
+    color: black;
+    transition-duration: 0.4s;
+}
+.last-btn {
+    border-radius: 6px;
+    border: 1.3px solid;
+    background-color: black;
+    padding: 11px;
+    color: white;
+    font-size: 0.6rem;
+    margin-left: 21rem;
+    margin-top: 1.9rem;
+    cursor: pointer;
+}
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer p{
+    color: gray;
+    font-size: 0.7rem;
+    padding: 7px;
+}
+.list ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: gray;
+    font-size: 0.7rem;
+}
+.list ul li {
+    padding: 7px;
+    cursor: pointer;
+}
+.list button {
+     border-radius: 6px;
+    border: 1.3px solid;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    font-size: 0.6rem;
+    cursor: pointer;
+
+}
+
+
+
+
